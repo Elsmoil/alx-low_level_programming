@@ -4,17 +4,21 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	char x = 'a';
-	char y = 'A';
+{	
+	char x;
+	char y;
+
+	x = 'a';
+	y = 'A';
 
 	while
-	{putchar(x <= a);
+	{	putchar(x <= a);
 		x++;
 	}
 	while
 	{	putchar(y <= A);
 		A++;
 	}
-	putchar('\n')
+	putchar('\n');
 		return (0);
 }
