@@ -10,12 +10,14 @@ int main(void)
 
 	n = 'a';
 	while
-		(n <= 'a')
+		(n <= 'z')
 	{
 		if (n == 'e' || n == 'q')
+			n++;
 			putchar(n);
 			n++;
 	}
 		putchar('\n');
+
 		return (0);
 }
