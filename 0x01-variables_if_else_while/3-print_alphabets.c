@@ -4,7 +4,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	
+{
 	char x;
 	char y;
 
@@ -12,11 +12,13 @@ int main(void)
 	y = 'A';
 
 	while
-	{	putchar(x <= a);
+	{
+		putchar(x <= a);
 		x++;
 	}
 	while
-	{	putchar(y <= A);
+	{
+		putchar(y <= A);
 		A++;
 	}
 	putchar('\n');
