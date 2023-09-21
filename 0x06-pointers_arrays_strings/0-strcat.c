@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _streat - function that concatenates two strings.
+ * _strcat - function that concatenates two strings.
  *
  * @dest: pointer to destnation input
  * @src: pointer to sourse input
@@ -9,7 +9,7 @@
  * Return: pointer to resulting string @dest
  */
 
-char *_strct(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int c, c2;
 
