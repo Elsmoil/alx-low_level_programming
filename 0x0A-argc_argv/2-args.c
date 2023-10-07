@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int msin(int argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
 	int i = 0;
 
