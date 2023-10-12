@@ -3,7 +3,7 @@
 
 /**
  * free_dog - frees yo dawgs
- * @d yo dawg
+ * @d: yo dawg
  *
  * Return: void.
  */
