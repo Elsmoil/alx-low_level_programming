@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _strlen - return the length of a string
@@ -31,7 +31,7 @@ int create_file(const char *filename, char *text_content)
 
 	if (!filename)
 		return (-1);
-	fr = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_TRUSR | S_TWUSR);
+	fr = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 	if (fr == -1)
 		return (-1);
 	if (len)
