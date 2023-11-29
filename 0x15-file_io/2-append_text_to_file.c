@@ -26,6 +26,7 @@ int _strlen(char *s)
  *
  * Return: 1 success 0 failure
  */
+
 int append_text_to_file(const char *filename, char *text_content);
 {
 	int fr;
@@ -39,5 +40,6 @@ int append_text_to_file(const char *filename, char *text_content);
 	if (len)
 		bytes = write(fr, text_content, len);
 	close(fr);
+
 	return (bytes == len ? 1 : -1);
 }
